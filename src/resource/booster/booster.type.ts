@@ -6,3 +6,4 @@ interface Booster {
     testDate: Date;
     scraped: boolean;
 }
+export const boosters: Booster[] = [];

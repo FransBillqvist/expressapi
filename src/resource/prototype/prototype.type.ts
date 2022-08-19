@@ -8,3 +8,4 @@ interface prototype{
     scraped: boolean;
     monument: boolean;
 }
+export const prototypes: prototype[] = [];

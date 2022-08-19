@@ -10,3 +10,5 @@ interface starship {
     monument: boolean;
     orbit: string;
 }
+
+export const starships: starship[] = [];
