@@ -1,11 +1,12 @@
 import express from 'express';
-import boosterRouter from './resource/booster/booster.router';
+import starshipRouter from './resource/starship/starship.router';
 
 const app = express();
 const port = 3000;
 
 app.use(express.json());
-app.use('/api/booster', boosterRouter);
+
+app.use('/api/starships', starshipRouter);
 
 
 app.listen(port, () => {
