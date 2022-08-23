@@ -1,2 +1,5 @@
 ### GET ALL
-GET http://localhost:3000/
+GET http://localhost:3000/api/starships
+
+### GET ONE BY ID
+GET http://localhost:3000/api/starships/1
