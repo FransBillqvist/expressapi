@@ -1,4 +1,4 @@
-interface starship {
+interface Starship {
 
     id: number;
     codeName: string;
@@ -11,4 +11,4 @@ interface starship {
     orbit: string;
 }
 
-export const starships: starship[] = [];
+export const starships: Starship[] = [];
