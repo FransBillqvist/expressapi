@@ -11,5 +11,4 @@ app.use('/api/starships', starshipRouter);
 
 app.listen(port, () => {
   console.log(`Server is currently running on  http://localhost:${port}`);
-
 });
