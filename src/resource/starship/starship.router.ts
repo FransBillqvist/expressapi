@@ -13,8 +13,8 @@ const starshipRouter = express
   .get('/', getAllStarships)
   .get('/id/:id', getStarshipById)
   .post('/', postNewStarship)
-  .put('id/:id', updateStarshipById)
+  .put('/id/:id', updateStarshipById)
+  .delete('/id/:id', deleteStarshipById)
   .delete('/', deleteAllStarship)
-  .delete('id/:id', deleteStarshipById);
 
 export default starshipRouter;
