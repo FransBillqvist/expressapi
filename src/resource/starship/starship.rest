@@ -9,31 +9,31 @@ POST http://localhost:3000/api/starships
 Content-Type: application/json
 
 {
-    "id": 9,
-    "codeName": "SN15",
+    "id": 6,
+    "codeName": "SN24",
     "rud": false,
-    "numberOfStaticFires": 3,
-    "testDate": "2021-05-05T22:24:00.000Z",
-    "hop": "10KM",
-    "scraped": false,
-    "monument": true,
-    "orbit": "nope",
+    "numberOfStaticFires": 7,
+    "testDate": "2022-09-24T22:42:00.069Z",
+    "hop": "230KM",
+    "scraped": true,
+    "monument": false,
+    "orbit": "yep, LEO",
     "owner": "SpaceX",
-    "location": "Starbase, Boca Chica, TX, USA, Earth"
+    "location": "Mexican golf, Earth"
 }
 
-### DELETE
+### DELETE BY ID
 DELETE http://localhost:3000/api/starships/id/4
 
 ### DETELE ALL
 DELETE http://localhost:3000/api/starships
 
 ### PUT /ID
-PUT http://localhost:3000/api/starships/id/1
+PUT http://localhost:3000/api/starships/id/5
 Content-Type: application/json
 
 {
-    "id": 7,
+    "id": 5,
     "CodeName": "SN15",
     "rud": false,
     "numberOfStaticFires": 3,
@@ -41,7 +41,7 @@ Content-Type: application/json
     "hop": "15KM",
     "scraped": false,
     "monument": true,
-    "orbit": "nope",
-    "owner": "Blue origin, Jeff Pesos",
-    "location": "Desert, Somewhere in, TX, USA, Earth"
+    "orbit": "nope, but bellyflopp",
+    "owner": "SpaceX",
+    "location": "Starbase, Boca Chica, TX, USA, Earth"
 }
