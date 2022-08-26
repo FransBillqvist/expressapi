@@ -3,9 +3,9 @@ School assigment
 
 cd expressapi
 
-npm install
-npm run build
-npm start
+npm install <br />
+npm run build <br />
+npm start <br />
 
 
 Krav för godkänt:
