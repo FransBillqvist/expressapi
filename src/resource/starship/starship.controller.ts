@@ -54,6 +54,19 @@ let starships: Starship[] = [
     owner: 'Blue Origin #MrCopyCat',
     location: 'Van Horn, TX, USA, Earth',
   },
+  {
+    id: 5,
+    codeName: 'SN15',
+    rud: false,
+    numberOfStaticFires: 3,
+    testDate: new Date(2021, 5, 5, 22, 24, 0, 0),
+    hop: '10KM',
+    scraped: false,
+    monument: false,
+    orbit: 'nope',
+    owner: 'SpaceX',
+    location: 'Starbase, Boca Chica, TX, USA, Earth',
+  },
 ];
 
 export const getAllStarships = (req: Request, res: Response) => {
@@ -135,6 +148,6 @@ export const deleteStarshipById = (req: Request, res: Response) => {
   }
   if (starship) {
     starships.splice(starships.indexOf(starship), 1);
-    res.status(200).json(starship);
+    res.status(204).json(starship);
   }
 };
