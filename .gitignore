@@ -9,3 +9,4 @@
 .LSOverride
 node_modules
 .vscode
+dist
